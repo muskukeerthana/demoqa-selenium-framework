@@ -16,10 +16,10 @@ public class LoginTest extends BaseTest {
 		Thread.sleep(200);
 		String url = driver.getCurrentUrl();
 		//Assert.assertTrue(url.contains("profile"), "Login failed");
-		
+
 }
 	
-//	
+
 //		@Test
 //	    public void loginWithInvalidCredentials() {
 //	        page.navigateTo("https://demoqa.com/login");

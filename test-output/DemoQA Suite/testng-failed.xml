@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [DemoQA Suite]">
-  <test thread-count="5" name="Register Tests(failed)">
+  <test thread-count="5" name="Elements(failed)">
     <classes>
-      <class name="BaseTest.RegisterTest">
+      <class name="BaseTest.Elements">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="loginOrRegisterTest"/>
+          <include name="ElementTab"/>
         </methods>
-      </class> <!-- BaseTest.RegisterTest -->
+      </class> <!-- BaseTest.Elements -->
     </classes>
-  </test> <!-- Register Tests(failed) -->
+  </test> <!-- Elements(failed) -->
 </suite> <!-- Failed suite [DemoQA Suite] -->

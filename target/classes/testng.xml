@@ -2,18 +2,25 @@
 
 <suite name="DemoQA Suite">
 
-    <test name="Login Tests">
-        <classes>
-            <class name="BaseTest.LoginTest"/>
-        </classes>
-    </test>
-
-    <test name="Register Tests">
-        <classes>
-            <class name="BaseTest.RegisterTest"/>
-        </classes>
-    </test>
-
     
+<test naem = "LoginTest">
+  <classes>
+    <class name ="BaseTest.LoginTest"/>
+   </classes>
+ </test>
+
+
+<test name = "RegistrationTest">
+  <classes>
+     <class name = "BaseTest.RegistrationTest"/>
+  </classes>
+</test>
+
+  
+<test name = "Elements">
+   <classes>
+     <class name = "BaseTest.Elements"/>
+   </classes>
+ </test>
 
 </suite>

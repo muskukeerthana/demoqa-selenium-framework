@@ -6,7 +6,7 @@ public class ContactFormTest extends BaseTest {
     @Test
     public void fillContactFormWithCaptcha() throws Exception {
         // Open demoqa — click banner image to open new tab
-        page.navigateTo("https://demoqa.com/login");
+        page.navigateTo("https://demoqa.com");
         page.clickElement(By.xpath("//div//img[@alt='Selenium Online Training']"));
         // Switch to new tab
         for (String handle : driver.getWindowHandles()) {
@@ -14,8 +14,11 @@ public class ContactFormTest extends BaseTest {
         }
         
         page.clickElement(By.xpath("//a[contains(text(),'Registration')]"));
+        Thread.sleep(22000);
         page.typeIntoField(By.id("first-name"),  "john");
         page.typeIntoField(By.id("last-name"),   "doe");
+        Thread.sleep(22000);
+
         page.typeIntoField(By.id("email"),       "john@gmail.com");
         page.typeIntoField(By.id("mobile"),      "1234567890");
         page.selectCountry(By.xpath("//select[@id='country']"), "Ireland");

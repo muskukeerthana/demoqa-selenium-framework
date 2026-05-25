@@ -78,6 +78,7 @@ public class RegisterTest extends BaseTest {
 	        System.out.println("Registration successful, now Login successful");
 
 	    }
+	  }
 	}
-	}
+
 
