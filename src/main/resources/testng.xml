@@ -22,5 +22,11 @@
      <class name = "BaseTest.Elements"/>
    </classes>
  </test>
+ 
+ <test name = "InvalidLoginTest">
+   <classes> 
+         <class name = "BaseTest.InvalidLoginTest"/>
+   </classes>
+ </test>
 
 </suite>
